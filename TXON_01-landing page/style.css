@@ -1,0 +1,91 @@
+    .myslider {
+        background-image: url("slider\ 1.jpeg");
+        background-size: 100% 100%;
+        animation: slider 24s infinite linear;
+        min-height: 300px;
+        width: 50%;
+        border-radius: 10px;
+        margin-right: 20px;
+        margin-left: 5px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    @keyframes slider {
+        0% {
+            background-image: url("slider\ 1.jpeg");
+            background-size: 100% 100%;
+        }
+
+        33% {
+            background-image: url("slider\ 2.jpg");
+            background-size: 100% 100%;
+        }
+
+        66% {
+            background-image: url("slider\ 3.jpg");
+            background-size: 100% 100%;
+        }
+    }
+
+    .back {
+        background-image: url('images.jpeg');
+        background-size: 100% 100%;
+        border-radius: 1px 1px 20px 1px;
+        display: flex;
+        margin-top: 80px;
+        margin-right: 120px;
+        padding: 15px;
+        height: 600px;
+    }
+
+    .bak1 {
+        visibility: hidden;
+    }
+
+    .bak:hover~.bak1 {
+        visibility: visible;
+    }
+
+    .b {
+        background-image: url('3009501.jpg');
+        background-size: 100% 100%;
+    }
+
+    .main {
+        list-style-image: linear-gradient(to left bottom, red, blue);
+        line-height: 200%;
+    }
+
+    .t {
+        background-image: url('cut.jpg');
+        background-size: cover;
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+
+    }
+
+    .ddd {
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-image: url('images.jpg');
+        color: transparent;
+    }
+
+    #demo-text {
+        font-size: 80px;
+        font-weight: 700;
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        background-image: url('1cut.jpg');
+    }
+
+    .package_section {
+        padding: 5px;
+        width: 33.33%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
