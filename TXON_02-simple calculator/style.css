@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* horizontall centre */
+    justify-content: center;
+    margin-top: 100px;
+    background: linear-gradient(to right, rgba(52, 49, 49, 0.94), rgb(160, 164, 228));
+}
+
+.button {
+    box-shadow: 2px 2px 2px 2px #0c0c0c;
+    background: transparent;
+    color: brown;
+    font-weight: bolder;
+    font-size: medium;
+    margin: 10px;
+    border: none;
+    border-radius: 50%;
+    justify-content: center;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: antiquewhite;
+}
+
+.input {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    background: transparent;
+    color: white;
+    text-align: right;
+    font-weight: bolder;
+    padding: 10px;
+    font-size: large;
+    opacity: 0.8;
+}
+
+.func {
+    border-radius: 50%;
+    padding: 10px;
+    background-color: burlywood;
+}
+
+.container {
+    background-color: black;
+    box-shadow: 6px 2px 2px 0px white;
+    padding: 7px;
+    border-radius: 25px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.display-box {
+    background: linear-gradient(to right, rgba(52, 49, 49, 0.94), rgb(160, 164, 228));
+    border-radius: 15px;
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    opacity: 0.8;
+}
+
+.button-area {
+    background: linear-gradient(to right, rgba(52, 49, 49, 0.94), rgb(160, 164, 228));
+    border-radius: 0px 0px 15px 15px;
+    width: fit-content;
+}
+
+.row {
+    width: 100%;
+}
